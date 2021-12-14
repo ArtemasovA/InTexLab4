@@ -1,6 +1,0 @@
-<?php 
-if (isset($_COOKIE['name'])) {
-	setcookie('name', null, -1, '/'); 
-}
-header("Location: http://{$_SERVER[HTTP_HOST]}/lab4/index.php");
-?>
